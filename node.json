@@ -31,13 +31,5 @@
    "success": true,
    "errors": [],
    "messages": [],
-  },
-  "status": "success",
-  "country": "Cambodia",
-  "countryCode": "KH",
-  "regionName": "Phnom Penh",
-  "isp": "Digital Ocean",
-  "org": "Digital Ocean",
-  "query": "4398585176",
-}
+  }
 
