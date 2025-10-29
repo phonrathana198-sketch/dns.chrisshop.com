@@ -56,5 +56,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
    } 
 }
 </script>
+<script>
+  const map = L.map('map').setView([11.5564, 104.9282], 13); // Phnom Penh
+  // title layer (OpenStreetMap) L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '© OpenStreetMap contributors'
+  }).addTo(map);
+
+  // marker www.dns.chrisshop.com
+  L.marker([ 11.5564, 104.9282 ])
+    .addTo(map)
+    .bindPopup('Hello from Phnom Penh ')
+    .openPopup();
+</script>      
 </body>
 </html>
