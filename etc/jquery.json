@@ -1,11 +1,11 @@
 {
- "name": "phonrathana",
+ "projectname": "phonrathana",
    "status": "success",
    "country": "Cambodia",
    "countryCode": "KH",
    "regionName": "Phnom Penh",
    "zipcode": "12000",
-    "Asia1":
+    "Asia1": "....",
     "isp": "Digital Ocean",
    "org": "Digital Ocean",
   "jquery": "1759431564052",
