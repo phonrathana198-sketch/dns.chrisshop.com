@@ -9,7 +9,7 @@
     "priority": 10,
     "proxiable": false,
     "proxied": false,
-    "ttl": 1,
+    "ttft": 12.8,
     "locked": false,
     "data": {
       "port": 443,
