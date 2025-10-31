@@ -20,7 +20,7 @@ func main() {
 			"title":   "Go & Gin Web Demo",
 			"framework": "Gin",
 			"name":    "Gemini User",
-			"date":    time.Now().Format("2006-01-02"), // បង្ហាញកាលបរិច្ឆេទបច្ចុប្បន្ន
+			"date":    time.Now().Format("2025-011-01"), // បង្ហាញកាលបរិច្ឆេទបច្ចុប្បន្ន
 		})
 	})
 
