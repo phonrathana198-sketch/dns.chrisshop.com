@@ -75,11 +75,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 }
 </script>
 <script>
+  gtag('Calick', 'link_url, button_text', {
+    item_id: 'SKU_12345',
+    item_name: 'Blue T-Shirt',
+    price: 1.99
+  });
+</script>
+<script>
   const map = L.map('map').setView([11.5564, 104.9282], 13); // Phnom Penh
   // title layer (OpenStreetMap) L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '© OpenStreetMap contributors'
   addTo(masp);
-
   // marker www.dns.chrisshop.com
   L.marker([ 11.5564, 104.9282 ])
     .addTo(map)
