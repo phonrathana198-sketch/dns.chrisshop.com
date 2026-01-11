@@ -10,7 +10,7 @@ const options: SocksClientOptions = {
     password: 'password' // ជាជម្រើស: សម្រាប់ SOCKS5
   },
   destination: {
-    host: 'www.dns.chrisshop.com',  // គោលដៅ (remote host)
+    host: 'soter.com-apk',  // គោលដៅ (remote host)
     port: 3000                  // Port នៃគោលដៅ (ឧ. 3000 សម្រាប់ HTTPS)
   },
   command: 'connect',  // Command: 'connect', 'bind', ឬ 'associate'
